@@ -2,96 +2,134 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Jordan Pfeifer
+    - name: Location
+      value: Providence, RI
+    - name: Phone
+      value: 508-579-2958
+    - name: Email
+      value: jordanpfeifer27@gmail.com
+    - name: LinkedIn
+      value: www.linkedin.com/in/pfeifer-jordan/
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Sc.B. in Mathematical Physics, A.B. in Computer Science
+      institution: Brown University
+      year: Expected Graduation May 2025
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - Activities: Brown Formula Racing, Society of Women Engineers, Women in Physics, Women Build at Brown
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Data Science Intern
+      institution: Vatn Systems (AUV)
+      year: January 2025 – Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Implementing numerical methods and linear algebra techniques in C++ for guidance and navigation control. Using templated functions to increase code reusability and improve compilation size for embedded system integration.
+        - Enhancing Python plotting capabilities; identified two critical algorithm errors. Establishing a comprehensive testing suite.
+        - Developing MLOps pipelines for several data sources and predictive models.
+        - Creating interactive dashboards to streamline debugging and offline data analysis.
+
+    - title: Particle Physics Research Intern
+      institution: European Organization for Nuclear Research (CERN)
+      year: June 2023 – Present
       description:
-        - Description 1.
-        - Description 2.
+        - Designing, implementing, and training convolutional autoencoders and graph neural networks to identify anomalous particle jets in noisy, high-dimensional physics datasets.
+        - Leading end-to-end data pipeline development, including data preprocessing, data cleaning, imputation, feature engineering, and regression analysis.
+        - Using techniques such as recursive feature elimination to select the most important features for training, improving accuracy and reducing computational cost.
+        - Conducting comprehensive evaluation of model performance using cross-validation, hyperparameter tuning, model comparison, and ROC-AUC curves across multiple types of jets to select the most robust approach.
+        - Monitoring trigger rates sensitive to HCAL (Hadronic Calorimeter) conditions to validate the expected experimental conditions.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Astrophysics Research Intern
+      institution: SLAC National Accelerator Laboratory
+      year: June 2022 – June 2024
       description:
+        - Developing and implementing a novel method for modeling and quantifying galaxy cluster morphologies by applying a high-dimensional polynomial basis to simulated X-ray data using Python.
+        - Analyzing the developed method and verifying that it separates simulated data into distinct features and substructures apparent in real data when using dimensionality reduction (PCA). Quantifying these relationships with redshift and mass using statistical analysis and computational techniques.
+        - Establishing a modular framework for generating diverse X-ray data; enabling the creation of datasets with particular astrophysical features or properties, supporting advancements in simulation and model validation.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Optics Research Intern
+      institution: Laboratory for Emerging Technologies, Brown University
+      year: September 2023 – December 2023
+      description:
+        - Designed and conducted a novel experiment to stimulate G-center single photon emission in a silicon photodiode for quantum applications.
+        - Prepared silicon wafers, conducted vacuum wafer bonding, employed sputtering techniques, and used a cryostat to stimulate emission.
 
-- title: Open Source Projects
+- title: Engineering Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Former Captain & Current Technical Advisor
+      institution: Brown Formula Racing (FSAE)
+      year: March 2023 – Present
+      description:
+        - Led a team of 40 students to design, simulate, build, and race an FSAE-spec racecar, competing in FSAE Michigan 2024.
+        - Oversaw high-level engineering decisions, conducted design reviews, and facilitated data acquisition and analysis to help validate 16 subsystems on the car, including a first-year aerodynamics package.
+        - Directed overall CAD development and ensured design integrity by troubleshooting and refining team-wide CAD models.
+        - Ensured compliance with competition rules by conducting thorough design checks and integrating regulatory considerations; focused on MVP for early testing phases.
+        - Improved recruiting and retention of gender minorities on the team by 75%. Led discussions on equity and inclusivity.
+        - Currently advising students on design, analysis, and manufacturing procedures.
+
+    - title: Testing Lead
+      institution: Brown Formula Racing (FSAE)
+      year: March 2024 – Present
+      description:
+        - Leading and coordinating comprehensive physical testing according to the V-Model framework to ensure peak car performance. Creating detailed testing plans and performing data analysis on results.
+        - Conducting physical testing on carbon fiber and other composite materials, analyzing failure modes, and quantifying physical properties.
+        - Directing flowbench and dynamometer testing to validate intake, exhaust, engine, and fuel components.
+        - Leading a team of 8 students to develop a custom app for race-day data collection and issue logging, enabling streamlined recording of test data, driver feedback, and troubleshooting solutions. Collaborating as a lead software engineer, leveraging React/TypeScript to create a fluid frontend display and Python to establish API endpoints.
+
+    - title: Powertrain Lead Engineer
+      institution: Brown Formula Racing (FSAE)
+      year: March 2024 – Present
+      description:
+        - Designing and manufacturing a fuel system and conducting analysis of E85 vs. 100-octane fuel, performing tradeoff studies on power output, efficiency, car weight, and durability.
+        - Integrating fuel with intake, exhaust, and engine systems using Ricardo Wave+ simulations and dynamometer testing.
+
+    - title: Controls and Brakes System Lead Engineer
+      institution: Brown Formula Racing (FSAE)
+      year: March 2022 – March 2024
+      description:
+        - Designed, built, and implemented a driver-adjustable pedalbox, improving its ability to accommodate 95% of all team members. Conducted FEA for all components to withstand max braking force of 2000N with a FOS of 3.
+        - Developed detailed Solidworks C
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2024
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - "M. Benyas, J. Pfeifer, A.B. Mantz, S.W. Allen, E. Darragh-Ford, 'A Generative Model for Realistic Galaxy Cluster X-Ray Morphologies', The Astrophysical Journal, Vol. 969, No. 1, 2024. DOI: 10.3847/1538-4357/ad5183."
+        - SPRINT LINK ($6,500)
+        - Top Ten Three-View Drawings, FSAE Michigan
+    - year: 2023
       items:
-        - Max Planck Medal
+        - Karen T. Romer Undergraduate Research Award (UTRA) ($5,500 & $1,500) – June 2023 & September 2023
 
-- title: Academic Interests
+- title: Skills
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Software [Programming]
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Python, Tensorflow, Pytorch, Keras, Julia, Java, React, TypeScript, C++, MATLAB, Linux, bash/shell scripting, Github, matplotlib, Seaborn, Firebase/Firestore, Maven, HTML, CSS, npm, coffea, ROOT
+    - title: Software [Testing]
       items:
-        - Description 1.
-        - Description 2.
+        - Unit/Integration Testing, fuzz testing, JUnit, Jest
+    - title: Software [Engineering]
+      items:
+        - SolidWorks, Fusion360, Ansys, Raspberry Pi, Ricardo Wave+, MoTeC i2 Pro
+    - title: Manufacturing
+      items:
+        - Lathe, mill, CNC mill/lathe, laser cutting, 3D printing, carbon fiber/composites, tolerance analysis, DFM analysis, rapid prototyping, GD&T, soldering, TIG welding
+    - title: Testing
+      items:
+        - Instron, dynamometer, flowbench, Charpy impact testing, oscilloscope, multimeter
+    - title: Productivity Tools
+      items:
+        - Excel, Powerpoint, Word, Outlook, Trello, LaTeX
 
-- title: Other Interests
+- title: Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Figure skating, rock climbing, building cars, pottery, baking, hiking
