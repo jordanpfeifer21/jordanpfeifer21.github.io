@@ -30,12 +30,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-repositories",
-          title: "repositories",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
+        },{id: "nav-code",
+          title: "code",
+          description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/repositories/";
+            window.location.href = "/code/";
           },
         },{id: "nav-cv",
           title: "cv",
@@ -44,8 +44,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "news-i-successfully-present-my-honors-thesis-an-exploration-of-deep-learning-methods-for-anomaly-detection-in-high-energy-jets",
-          title: 'I successfully present my honors thesis, “An Exploration of Deep Learning Methods for...',
+        },{id: "news-presented-my-honors-thesis-an-exploration-of-deep-learning-methods-for-anomaly-detection-in-high-energy-jets",
+          title: 'Presented my honors thesis, “An Exploration of Deep Learning Methods for Anomaly Detection...',
           description: "",
           section: "News",},{id: "news-placed-18th-out-of-120-in-the-2025-fsae-ic-competition-the-highest-placing-for-brown-university-since-2000",
           title: 'Placed 18th out of 120 in the 2025 FSAE IC Competition, the highest...',
