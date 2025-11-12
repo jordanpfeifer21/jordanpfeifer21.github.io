@@ -192,6 +192,8 @@ exclude:
   - readme_preview/
   - vendor
   - _pages_unused/
+  - _books/ #ignore for now
+  - _posts/ #ignore for now 
 keep_files:
   - CNAME
   - .nojekyll
