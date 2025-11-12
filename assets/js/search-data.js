@@ -9,19 +9,12 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-news",
-          title: "news",
+  },{id: "nav-cv",
+          title: "cv",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/news/";
-          },
-        },{id: "nav-publications",
-          title: "publications",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/publications/";
+            window.location.href = "/cv/";
           },
         },{id: "nav-projects",
           title: "projects",
@@ -30,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
+        },{id: "nav-publications",
+          title: "publications",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/publications/";
+          },
         },{id: "nav-code",
           title: "code",
           description: "",
@@ -37,12 +37,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/code/";
           },
-        },{id: "nav-cv",
-          title: "cv",
+        },{id: "nav-news",
+          title: "news",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/cv/";
+            window.location.href = "/news/";
           },
         },{id: "news-presented-my-honors-thesis-an-exploration-of-deep-learning-methods-for-anomaly-detection-in-high-energy-jets",
           title: 'Presented my honors thesis, “An Exploration of Deep Learning Methods for Anomaly Detection...',
