@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-publications",
           title: "publications",
-          description: "Recent publications.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
@@ -37,16 +37,17 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+        },{id: "news-i-successfully-present-my-honors-thesis-an-exploration-of-deep-learning-methods-for-anomaly-detection-in-high-energy-jets",
+          title: 'I successfully present my honors thesis, “An Exploration of Deep Learning Methods for...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-placed-18th-out-of-120-in-the-2025-fsae-ic-competition-the-highest-placing-for-brown-university-since-2000",
+          title: 'Placed 18th out of 120 in the 2025 FSAE IC Competition, the highest...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-graduated-from-brown-with-an-sc-b-in-mathematical-physics-and-an-a-b-in-computer-science",
+          title: 'Graduated from Brown with an Sc.B. in Mathematical Physics and an A.B. in...',
+          description: "",
+          section: "News",},{id: "news-started-full-time-as-a-gnc-engineer-at-vatn-systems",
+          title: 'Started full time as a GNC Engineer at Vatn Systems.',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
