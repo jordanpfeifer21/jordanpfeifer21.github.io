@@ -5,7 +5,7 @@ title: news
 description: 
 years: []
 nav: true
-nav_order: 1
+nav_order: 5
 ---
 
 Recent news/announcements
