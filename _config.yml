@@ -189,7 +189,9 @@ exclude:
   - vendor
   - _pages_unused/
   - _books/ #ignore for now
-  - _posts/ #ignore for now 
+  - _posts/ #ignore for now ]
+  - _projects/ 
+  - 
 keep_files:
   - CNAME
   - .nojekyll

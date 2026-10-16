@@ -1,0 +1,16 @@
+1. jets 
+2. galaxy clusters 
+3. llms for rl agents 
+4. deep learning in genomics project 
+5. comp lingustics project?
+
+6. carteam: pedalbox
+7. carteam: captain 
+8. carteam: fuel 
+9. carteam: structural floor 
+10. carteam: steering 
+11. carteam: 3 views 
+12. carteam: testing 
+
+firatting: sligntly loger or wider images, title should be small, left aligned, and have no different color under it 
+description can be short and below it 
