@@ -43,10 +43,14 @@
       "endDate": "",
       "summary": "",
       "highlights": [
-        "Implementing numerical methods and linear algebra techniques in C++ for guidance and navigation control. Using templated functions to increase code reusability and improve compilation size for embedded system integration.",
-        "Enhancing Python plotting capabilities; identified two critical algorithm errors. Establishing a comprehensive testing suite.",
-        "Developing MLOps pipelines for several data sources and predictive models.",
-        "Creating interactive dashboards to streamline debugging and offline data analysis."
+        "Architected the primary algorithm for Vatn’s navigation system, validated it in-the-loop, and delivered to production vehicles.",
+        "Derived and implemented an Error State Kalman Filter (ESKF) in C++. Optimized compute with templated matrix decompositions.", 
+        "Redesigned measurement models and aiding sources, including DVLs, pressure sensors, GNSS, MEMS IMUs, and FOG IMUs.",
+        "Tuned covariance and ran innovation tests to validate the ESKF. Characterized IMUs with Allan variance tests.",
+        "Designed a DuckDB + SQL database to store and analyze experimental data.",
+        "Created quantitative vehicle performance metrics and conducted parametric and non-parametric statistical tests to validate design decisions.",
+        "Built dashboards for debugging, PID tuning, and analysis."
+
       ]
     },
     {
